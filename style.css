@@ -1,0 +1,40 @@
+body{
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(to bottom, rgb(230, 220, 220), rgb(190, 182, 182));
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.princi{
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px;
+  overflow-x: hidden;
+  white-space: nowrap;
+}
+
+#result{
+  display: flex;
+  height: 50px;
+  width: 96%;
+  justify-content: end;
+  align-items: center;
+  text-align: right;
+  font-size: 20px;
+  background-color: rgb(250, 245, 245);
+  border: none;
+}
+
+input{
+  height: 60px;
+  width: 60px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.especial{
+  color: rgb(127, 127, 201);
+}
